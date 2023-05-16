@@ -1,0 +1,136 @@
+/*-------------------------------------------------
+  FAQ Page Wrapper CSS
+---------------------------------------------------*/
+/*-----  FAQ Wrapper  -----*/
+.ec-faq-wrapper {
+  max-width: 934px;
+  margin: 0 auto;
+}
+
+.ec-faq-wrapper .ec-faq-container {
+  border: 1px solid #ededed;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.ec-faq-container-1 {
+  margin-bottom: -15px;
+}
+
+.ec-faq-container-1 .ec-faq-wrapper {
+  margin: 0 auto;
+}
+
+.ec-faq-container-1 .ec-faq-block {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #d9d9d9;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.ec-faq-container-2 {
+  margin-bottom: -15px;
+}
+
+.ec-faq-container-2 .ec-faq-wrapper {
+  margin: 0 auto;
+}
+
+.ec-faq-container-3 {
+  margin-bottom: -15px;
+}
+
+.ec-faq-container-3 h4.ec-faq-title,
+.ec-faq-container-3 .ec-faq-title.h4 {
+  background-color: #3474d4;
+  color: #ffffff;
+}
+
+.ec-faq-container-3 h4.ec-faq-title:after,
+.ec-faq-container-3 .ec-faq-title.h4:after {
+  color: #ffffff;
+}
+
+/*-----  FAQ Section  -----*/
+h2.ec-faq-heading,
+.ec-faq-heading.h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #444444;
+  letter-spacing: 0;
+  line-height: 1;
+  padding: 0;
+  margin-bottom: 15px;
+  margin-top: 2px;
+  font-family: "Montserrat";
+}
+
+.ec-faq-block {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.ec-faq-block:first-child .ec-faq-content {
+  display: block;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+.ec-faq-block:last-child {
+  margin-bottom: 0;
+}
+
+h4.ec-faq-title,
+.ec-faq-title.h4 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #777777;
+  letter-spacing: 0;
+  position: relative;
+  line-height: 17px;
+  padding: 15px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-family: "Montserrat";
+}
+
+h4.ec-faq-title::after,
+.ec-faq-title.h4::after {
+  content: "\f107";
+  font-family: "EcIcons";
+  cursor: pointer;
+  font-size: 24px;
+  color: #777777;
+  font-weight: 400;
+  margin-left: 15px;
+}
+
+.ec-faq-content {
+  border-top: 2px solid #ededed;
+  display: none;
+  padding: 7px 15px 8px;
+}
+
+.ec-faq-content p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #777777;
+  letter-spacing: 0.3px;
+  position: relative;
+  line-height: 26px;
+}

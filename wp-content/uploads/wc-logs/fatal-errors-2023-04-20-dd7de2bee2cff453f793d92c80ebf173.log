@@ -1,0 +1,34 @@
+2023-04-20T14:32:44+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\class-acf-data.php:125
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\local-fields.php(448): ACF_Data->is(Array)
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\local-fields.php(528): acf_is_local_field_key(Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp-hook.php(308): _acf_apply_is_local_field_key(false, Array)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\acf-field-functions.php(195): apply_filters('acf/is_field_ke...', false, Array)
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\api\api-template.php(171): acf_is_field_key(Array)
+#6 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\api\api-template.php(121): acf_maybe_get_field(Array, 301)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\api\api-template.php(453): get_field_object(Array, 301, false)
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-about-us.php(49): have_rows(Array)
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\class-acf-data.php on line 125
+
+2023-04-20T14:33:54+00:00 CRITICAL Uncaught TypeError: Illegal offset type in isset or empty in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\class-acf-data.php:125
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\local-fields.php(448): ACF_Data->is(Array)
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\local-fields.php(528): acf_is_local_field_key(Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp-hook.php(308): _acf_apply_is_local_field_key(false, Array)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\plugin.php(205): WP_Hook->apply_filters(false, Array)
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\acf-field-functions.php(195): apply_filters('acf/is_field_ke...', false, Array)
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\api\api-template.php(171): acf_is_field_key(Array)
+#6 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\api\api-template.php(121): acf_maybe_get_field(Array, 301)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\api\api-template.php(453): get_field_object(Array, 301, false)
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-about-us.php(53): have_rows(Array)
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\advanced-custom-fields-pro-master\includes\class-acf-data.php on line 125
+

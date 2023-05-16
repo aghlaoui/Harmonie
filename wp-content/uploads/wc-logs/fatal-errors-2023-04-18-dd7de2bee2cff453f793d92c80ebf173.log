@@ -1,0 +1,18 @@
+2023-04-18T16:06:17+00:00 CRITICAL Uncaught Error: Call to a member function have_posts() on null in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php:57
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#4 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php on line 57
+
+2023-04-18T16:09:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function harmoniePagination(), 0 passed in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php on line 57 and exactly 1 expected in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\inc\my-functions\pagination.php:2
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(57): harmoniePagination()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#4 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\inc\my-functions\pagination.php on line 2
+

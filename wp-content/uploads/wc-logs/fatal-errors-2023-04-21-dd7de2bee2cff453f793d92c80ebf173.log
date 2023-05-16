@@ -1,0 +1,12 @@
+2023-04-21T14:24:48+00:00 CRITICAL Uncaught Error: Undefined constant "login" in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\header.php:161
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template.php(783): require_once()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\front-page.php(1): get_header()
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#6 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#7 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\header.php on line 161
+

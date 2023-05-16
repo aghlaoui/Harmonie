@@ -1,0 +1,246 @@
+2023-04-19T12:37:00+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:00+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:00+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:01+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:01+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:01+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:02+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:02+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:02+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:02+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:02+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:03+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T12:37:03+00:00 CRITICAL Uncaught Error: Call to a member function get_user_id() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php:20
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php on line 20
+
+2023-04-19T13:40:43+00:00 CRITICAL Uncaught Error: Cannot access protected property WC_Order_Item_Product::$id in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\order\order-details-item.php:29
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\order\order-details.php(88): wc_get_template('order/order-det...', Array)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2816): wc_get_template('order/order-det...', Array)
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp-hook.php(308): woocommerce_order_details_table(211)
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\checkout\thankyou.php(97): do_action('woocommerce_tha...', 211)
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\Users\\Admini...')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(279): wc_get_template('checkout/thanky...', Array)
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(63): WC_Shortcode_Checkout::order_received(211)
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(72): WC_Shortcode_Checkout::output('')
+#12 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\plugins\woocommerce\includes\class-wc-shortcodes.php(95): WC_Shortcodes::shortcode_wrapper(Array, '')
+#13 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(355): WC_Shortcodes::checkout('', '', 'woocommerce_che...')
+#14 [internal function]: do_shortcode_tag(Array)
+#15 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\shortcodes.php(227): preg_replace_callback('/\\[(\\[?)(woocom...', 'do_shortcode_ta...', '[woocommerce_ch...')
+#16 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-checkout.php(3): do_shortcode('[woocommerce_ch...')
+#17 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#18 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#19 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#20 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\order\order-details-item.php on line 29
+

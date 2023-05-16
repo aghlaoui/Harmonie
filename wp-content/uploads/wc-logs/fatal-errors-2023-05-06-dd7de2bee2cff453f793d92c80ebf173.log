@@ -1,0 +1,43 @@
+2023-05-06T11:46:17+00:00 CRITICAL syntax error, unexpected token "}", expecting ";" in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\inc\my-functions\wishlist-route.php on line 22
+
+2023-05-06T12:07:15+00:00 CRITICAL Uncaught Error: Object of class WP_User could not be converted to string in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\inc\my-functions\wishlist-route.php:21
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\rest-api\class-wp-rest-server.php(1181): addToWishlist(Object(WP_REST_Request))
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\rest-api\class-wp-rest-server.php(1028): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/ecommerce/v1/w...', Array, NULL)
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\rest-api\class-wp-rest-server.php(442): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\rest-api.php(410): WP_REST_Server->serve_request('/ecommerce/v1/w...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp-hook.php(308): rest_api_loaded(Object(WP))
+#5 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\plugin.php(565): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp.php(399): do_action_ref_array('parse_request', Array)
+#8 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\class-wp.php(780): WP->parse_request('')
+#9 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\functions.php(1334): WP->main('')
+#10 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(16): wp()
+#11 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#12 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\inc\my-functions\wishlist-route.php on line 21
+
+2023-05-06T14:11:58+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php:109
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php(19): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#5 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php on line 109
+
+2023-05-06T14:12:07+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php:109
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php(19): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#5 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php on line 109
+
+2023-05-06T14:43:19+00:00 CRITICAL syntax error, unexpected token ")" in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\inc\my-functions\wishlist-route.php on line 51
+
+2023-05-06T14:43:25+00:00 CRITICAL syntax error, unexpected token ")" in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\inc\my-functions\wishlist-route.php on line 51
+

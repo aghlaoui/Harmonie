@@ -1,0 +1,18 @@
+2023-05-05T13:03:21+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\products-variables.php:12
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-wishlist.php(48): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#4 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\products-variables.php on line 12
+
+2023-05-05T13:04:01+00:00 CRITICAL Uncaught Error: Call to a member function get_gallery_image_ids() on bool in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\products-variables.php:12
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\page-wishlist.php(48): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#4 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\products-variables.php on line 12
+

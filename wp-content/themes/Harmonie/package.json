@@ -1,0 +1,45 @@
+{
+  "name": "harmonie",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "prod": "cross-env NODE_ENV=production webpack --mode production --progress",
+    "dev": "cross-env NODE_ENV=development webpack --watch --mode development --progress",
+    "clean": "del /q build\\*",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "private": true,
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.3",
+    "cssnano": "^5.1.15",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss": "^8.4.21",
+    "postcss-loader": "^7.1.0",
+    "style-loader": "^3.3.2",
+    "ttf-loader": "^1.0.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "nouislider": "^15.7.0",
+    "npm": "^9.6.2",
+    "postcss-preset-env": "^8.1.0",
+    "svg-url-loader": "^8.0.0",
+    "swiper": "6.3.5",
+    "url-loader": "^4.1.1"
+  }
+}

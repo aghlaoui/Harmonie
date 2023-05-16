@@ -1,0 +1,50 @@
+2023-04-30T14:26:44+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on array in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php:27
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php(18): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#5 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php on line 27
+
+2023-04-30T14:27:50+00:00 CRITICAL Uncaught Error: Call to a member function get_regular_price() on array in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php:26
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php(18): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#5 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php on line 26
+
+2023-04-30T14:41:54+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::find_matching_variation() in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php:26
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php(18): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#5 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php on line 26
+
+2023-04-30T14:43:45+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::find_matching_variation() in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php:26
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php(18): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#5 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php on line 26
+
+2023-04-30T21:40:02+00:00 CRITICAL Uncaught TypeError: Unsupported operand types: string - string in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php:32
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\single-product.php(18): require()
+#1 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\woocommerce\archive-product.php(51): require('C:\\Users\\Admini...')
+#2 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#3 C:\Users\Administrator\Local Sites\harmonie\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#4 C:\Users\Administrator\Local Sites\harmonie\app\public\index.php(17): require('C:\\Users\\Admini...')
+#5 {main}
+  thrown in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\shop\product\product-box.php on line 32
+

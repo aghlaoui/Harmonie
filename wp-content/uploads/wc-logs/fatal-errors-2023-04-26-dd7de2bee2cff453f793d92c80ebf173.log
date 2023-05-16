@@ -1,0 +1,2 @@
+2023-04-26T12:28:46+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 127926304 bytes) in C:\Users\Administrator\Local Sites\harmonie\app\public\wp-content\themes\Harmonie\template-parts\home\prod-slider.php on line 68
+

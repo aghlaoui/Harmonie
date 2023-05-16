@@ -1,0 +1,105 @@
+/*-------------------------------------------------
+  About Us Page CSS
+---------------------------------------------------*/
+.ec-cms-block {
+  background-color: #fff;
+}
+
+.ec-cms-block .ec-cms-block-title {
+  margin-bottom: 14px;
+  color: #777;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  font-family: "Montserrat";
+}
+
+.ec-cms-block p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 26px;
+  font-weight: 300;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.ec-cms-block .a-img {
+  border-radius: 5px;
+}
+/*-------------------------------------------------
+  Services Section CSS
+---------------------------------------------------*/
+.ec_ser_inner {
+  padding: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  border: 1px solid #eeeeee;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.ec_ser_inner .ec-service-image {
+  margin-bottom: 15px;
+}
+
+.ec_ser_inner .ec-service-image svg {
+  width: 50px;
+  height: 50px;
+  fill: #444444;
+  stroke: #444444;
+  stroke-dashoffset: 1500;
+  stroke-dasharray: 1500;
+}
+
+.ec_ser_inner .ec-service-image i {
+  font-size: 44px;
+  line-height: 25px;
+}
+
+.ec_ser_inner:hover {
+  box-shadow: 0 3px 25px 4px rgba(0, 0, 0, 0.06);
+  -webkit-box-shadow: 0 3px 25px 4px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 3px 25px 4px rgba(0, 0, 0, 0.06);
+  border: 1px solid transparent;
+}
+
+.ec_ser_inner:hover .ec-service-image svg {
+  stroke-dashoffset: 0;
+  -webkit-transition: fill 0.5s, stroke-dashoffset 6s, -webkit-transform 0.3s;
+  transition: fill 0.5s, stroke-dashoffset 6s, -webkit-transform 0.3s;
+  transition: transform 0.3s, fill 0.5s, stroke-dashoffset 6s;
+  transition: transform 0.3s, fill 0.5s, stroke-dashoffset 6s, -webkit-transform 0.3s;
+}
+
+.ec-service-desc h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #444444;
+  letter-spacing: 0.6px;
+  margin-bottom: 10px;
+}
+
+.ec-service-desc p {
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+}
