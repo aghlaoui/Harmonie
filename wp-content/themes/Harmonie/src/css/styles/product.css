@@ -17,6 +17,10 @@
   display: flex;
 }
 
+.ec-page-content .single-pro-content .cart .qty-plus-minus .screen-reader-text {
+  display: none;
+}
+
 .ec-pro-variation .ec-pro-variation-inner>span {
   display: block;
   margin: 0 0 5px;

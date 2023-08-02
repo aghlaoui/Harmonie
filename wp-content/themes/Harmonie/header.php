@@ -13,14 +13,14 @@
     <?php
     $home_url = home_url();
     ?>
-    <!-- <div id="ec-overlay">
+    <div id="ec-overlay">
         <div class="ec-ellipsis">
             <div></div>
             <div></div>
             <div></div>
             <div></div>
         </div>
-    </div> -->
+    </div>
 
     <!-- Header start  -->
     <header class="ec-header">

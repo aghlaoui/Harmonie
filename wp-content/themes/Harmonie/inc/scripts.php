@@ -30,7 +30,7 @@ function harmonieScripts()
     }
 
     // Shop Page
-    if (is_shop() || is_archive()) {
+    if (is_shop() || is_archive() || is_search()) {
         wp_enqueue_script('shop', get_theme_file_uri('/build/shop.js'), array('jquery'), '1.0.0', true);
         wp_enqueue_script('nouislider', get_theme_file_uri('/src/js/plugins/nouislider.js'), array('jquery'), false, true);
         wp_enqueue_script('pluginShop', get_theme_file_uri('/build/pluginShop.js'), array('jquery'), '1.0.0', true);
