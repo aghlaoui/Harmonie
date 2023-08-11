@@ -19,7 +19,7 @@ The **"Harmonie"** template is a feature-rich and customizable WooCommerce theme
 
 ## Preview
 
-For a live preview of the "Harmonie" template, visit the following link: [Harmonie Preview.](https://horizons.great-site.net/)
+For a live preview of the "Harmonie" template, visit the following link: [Harmonie Preview.](http://harmonie.lovestoblog.com/)
 
 ## Project Status
 
